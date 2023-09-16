@@ -1,0 +1,75 @@
+nav{
+    color: aqua;
+}
+body{
+    background-color:rgb(13, 13, 44);
+}
+h1{
+    color:whitesmoke;
+}
+h2{
+    color: aqua;
+}
+li{
+    color: white;
+}
+a{
+    color: aqua;
+}
+.one{
+    color: aqua;
+}
+.two{
+        color: whitesmoke;
+}
+.three{
+    color: aqua;
+}
+.four{
+    color:white;
+}
+summary{
+    color: aqua;
+}
+.photo{
+    padding-left: 250Spx;
+    padding-bottom: 300px;
+    height: 50px;
+}
+.icon{
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon a{
+    position: relative;
+    display: inline flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    backgronud:transparent;
+    border: 2px solid #f86611;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #dc220d;
+    text-decoration: none;
+    z-index: 1;
+}
+.icon a::before {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height:100%;
+    background: rgb(229, 14, 14);
+    z-index: -1;
+    transition: .5s;
+}
+.icon a:hover::before {
+    width: 100%;
+}
+
